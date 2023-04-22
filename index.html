@@ -12,7 +12,7 @@
 <body>
            
   <!--navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fs-1">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="" alt="" ></a>
       <button class="navbar-toggler" 
@@ -26,9 +26,9 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
        <div class="navbar-nav">
-         <a class="nav-link" href="#">Acerca de mi</a>
-         <a class="nav-link" href="#">Proyectos</a>
-         <a class="nav-link" href="#">Contactos</a>
+         <a class="nav-link" href="#about">Acerca de mi</a>
+         <a class="nav-link" href="#proyectos">Proyectos</a>
+         <a class="nav-link" href="#contacto">Contactos</a>
          
        </div>
      </div>
@@ -38,14 +38,15 @@
 
           
   <!--info-->
-         <section class="info"> 
+         <section class="info" id="about"> 
            <div class="card text-bg-dark text-xl-center">
              <img src="./assest/img/img 2.jpg" class="img-fluid" alt="fondo">
              <div class="card-img-overlay">
-               <h1 class="card-title pt-3 text-center">Acerca de mí </h1>
+               <h1 class="card-title pt-3 text-center">Felipe Araya </h1>
               <div class="conter card-text">
-                <p class="card-text py-4 px-4"><h5>Hola mi nombre es Felipe soy estudiante de Desarrollo Full Stack JavaScript, tengo 28 años, soy de Valparaíso V región.
-                  Me gusta la computación, el deporte y la comida. Tengo mucha energía y soy bastante sociable, me gusta trabajar en equipo y apoyar a mis compañeros. Espero aprender proximamente mas lenguajes como C++, Java, Python y otros más. </h5></p>
+                <p class="card-text py-4 px-4 fs-2">
+                  ¡Hola! <br> Soy estudiante de <strong> Desarrollo Full Stack JavaScript </strong>, tengo 28 años, soy de Valparaíso V región. <br>
+                  Me gusta la computación, el deporte y la comida. Tengo mucha energía y soy bastante sociable, me gusta trabajar en equipo y apoyar a mis compañeros. Espero aprender proximamente mas lenguajes como C++, Java, Python y otros más. </p>
                   
                 </div> 
               </div>
@@ -54,17 +55,21 @@
               
 
    <!--experiencia-->        
-          <div class="card">
+          <div class="card fs-2">
             <div class="card-body">
               <div class="contenido">
-                <h4>Mi Educación</h4>
-                <p class="card-text py-1 px-2"> - Liceo Santiago Bueras y Avaria 2012
-                <p class="card-text py-1 px-2"> - DesafioLatam 2023 </p>
+                <h4 class="fs-1">Mi Educación</h4>
+                <p class="card-text py-1 px-2">
+                 - Liceo Santiago Bueras y Avaria 2012
                 </p>
+                <p class="card-text py-1 px-2"> 
+                  - DesafioLatam 2023 
+                </p>
+               
                 
                 <div class="conexión text-center">
-                  <h5 class="card-title"><span class="border border-3 rounded">Revisa mi perfil en GITHUB</h5>
-                    <a href="https://github.com/FelipeLampard" class="card-link"><i class="fa-brands fa-github"></i>Press Here</a>
+                  <h5 class="card-title fs-1" ><span class="border border-3 rounded">Revisa mi perfil en GITHUB</h5>
+                    <a href="https://github.com/FelipeLampard" class="card-link"><i class="fa-brands fa-github fa-2xl"></i></a> <!-- al dejar en blanco el icono sirve de hipervinculo-->
                   </div> 
                 </span>
               </div>
@@ -84,8 +89,8 @@
   
   <main>
     <section class="container py-3">
-      <div class="titulo text-center">
-        <p><h2>Mis Proyectos</h2></p>
+      <div>
+        <h2 class="titulo text-center fs-1" id="proyectos">Mis Proyectos</h2>
       </div>
 
     
@@ -172,9 +177,9 @@
     
     <!--footer-->
     
-    <footer class="deep bg-dark pt-4 pb-2">
+    <footer class="deep bg-dark pt-4 pb-2" id="contacto">
     <div class="footer bg-dark text-white text-center">  
-      <p><h4>Quieres saber mas de mi?</h4></p>
+      <h4>Quieres saber mas de mi?</h4>
       <p>Contactame!</p>
       <p><i class="fa-regular fa-address-book"></i> <a href="https://www.whatsapp.com/?lang=es" class="link">Mi contacto </a></p>
     </div>
